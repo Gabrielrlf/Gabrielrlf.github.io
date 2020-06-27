@@ -1,0 +1,138 @@
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    background-color:rgb(240, 240, 240);
+}
+.BannerLanding
+{
+    padding: 50px;
+    font-weight: lighter;
+}
+
+#BannerLanding h1 
+{
+    color: white;
+    font-size: 50px;
+}
+  #BannerLanding p 
+  {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  #BannerLanding
+  {
+    padding: 30px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+  }
+  #textFooter
+  {
+      text-align: center !important;
+  }
+  #footer a:hover
+  {
+      margin: 2px;
+      color: wheat;
+  }
+  #div1
+  {
+      height: 500px !important;
+  }
+  #footer a
+  {
+      color: gray;
+      font-size: 25px;
+      text-align: right !important;
+  }
+  .form-control{
+      display: inline-flex !important;
+      width: 300px !important;
+  }
+  #infoId
+  {
+    margin: 0 11px;
+} 
+  #paddingDiv{
+      padding: 80px;
+  }
+  #ImageBorder{
+    position: absolute;
+    margin: -231px 608px;
+    border: 1px solid #d6d3d3;
+    border-radius: 127px;
+    width: 269px !important;
+    height: 255px !important;
+
+  }
+  .formDiv{
+    background-size: cover;
+    background-color: rgb(200, 200, 200);
+    margin: 0px;
+    text-align: center;
+    padding: 150px;
+    border-radius: 2px;
+    box-shadow: 2px 2px rgb(235, 235, 235);
+  }
+#nameId{
+    margin: 38px auto !important; 
+    color: black !important;
+    font-weight: bold;;
+}
+.fa-envelope{
+    color: black !important;
+}
+#idFas{
+    font-family: cursive;
+    font-size: 15px;
+    color: whitesmoke;
+}
+#Initialing{
+    background-position: 100%;
+    background-image: url('images/corona-5275916_1280.jpg');
+    background-size: cover;
+    background-color: black;
+    margin: 0px;
+    text-align: center;
+    padding: 150px;
+    border-radius: 2px;
+    box-shadow: 2px 2px rgb(235, 235, 235);
+}
+#GitAcess{
+    color: black !important;
+    font-weight: bold;
+}
+#Iniciando{
+    margin: 0 auto;
+    font-size: 70px;
+    color:whitesmoke !important;
+    text-shadow: 2px 1px rgb(0, 0, 0);
+}
+#footer{
+    
+    color: whitesmoke;
+    padding: 30px;
+    background-color: black;
+}
+a{ text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: palegoldenrod;
+}
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:whitesmoke;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h2{
+    font-weight: lighter;
+}
+
+a{
+    font-size: 30px;
+}
