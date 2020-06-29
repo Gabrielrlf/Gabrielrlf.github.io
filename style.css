@@ -32,14 +32,39 @@ body
   {
       text-align: center !important;
   }
+  .text-menu:hover{
+    color: #FFF8DC !important;
+  }
+  .text-menu, .text-menu:active{
+      text-decoration: none !important;
+      font-weight: bold !important;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    margin: auto 22px;
+      color: #000000      !important;
+  }
   #footer a:hover
   {
       margin: 2px;
       color: wheat;
   }
+  .inline{
+      display: flex !important;
+  }
   #div1
   {
       height: 500px !important;
+  }
+  li {
+    list-style-type: none;
+  }
+  .Nav-menu{
+
+      color: whitesmoke !important;
+        text-align: left !important;
+       padding-top: 15px;
+        height: 80px !important;
+        background-color: rgb(200,200,200);
+       
   }
   #footer a
   {

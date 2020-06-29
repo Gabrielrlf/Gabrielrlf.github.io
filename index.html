@@ -3,6 +3,7 @@
 
 <head>
     <link rel="shortcut icon" href="images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
@@ -14,6 +15,12 @@
 </head>
 
 <body>
+    <nav class="Nav-menu" >
+        <ul class="list-inline">
+            <li><a href="#nameId" class="text-menu">Sobre</a></li>
+            <li><a href="#contact" class="text-menu">Contato</a></li>
+        </ul>
+    </nav>
     <div id="Initialing">
         <h1 id="Iniciando"> Acesse o meu GIT </h1>
         <h2 id="gitAcess"></h2>
@@ -21,12 +28,13 @@
     </div>
     <div class="container">
         <div class="row">
-            <img src="images/46503231_1701489886623989_965793692235333632_n.png" alt="picture"
-            id="ImageBorder" class="text-right">
+            <img src="images/46503231_1701489886623989_965793692235333632_n.png" alt="picture" id="ImageBorder"
+                class="text-right">
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-6" id="paddingDiv">
                 <div class="bannerLanding text-left">
                     <h1 id="nameId">Gabriel Fonseca</h2><br>
-                        <p id="infoId">20 anos,<br> residente de Fortaleza-Ceará, apaixonado por programação, estudante de
+                        <p id="infoId">20 anos,<br> residente de Fortaleza-Ceará, apaixonado por programação, estudante
+                            de
                             Análise e desenvolvimento de
                             sistemas, atualmente trabalhando com C# e
                             em busca de freela na parte de front.
@@ -34,7 +42,7 @@
             </div>
         </div>
     </div>
-    <div class="formDiv">
+    <div class="formDiv" id="contact">
         <h1> Entre em contato conosco e faça um orçamento</H1>
         <h2> Deixe seu nome, e-mail e explique um pouco sobre o seu projeto.</h2>
         <br>
@@ -62,7 +70,7 @@
     </div>
     <div id="footer">
         <p id="textFooter">Desenvolvido por: Gabriel Fonseca</p>
-        <H4 class="text-center"> Todos os direitos reservados -  2020.</H4>
+        <H4 class="text-center"> Todos os direitos reservados - 2020.</H4>
         <h4 class="text-right">REDES SOCIAIS</h4>
         <ul class="list-inline text-right">
             <li><a href="https://www.linkedin.com/in/gf0212/" target="_blank"><i class="fab fa-linkedin"
@@ -75,5 +83,5 @@
         </ul>
     </div>
 </body>
-
+<script src="Js/script.js"></script>
 </html>
