@@ -1,4 +1,4 @@
-const itens = document.querySelectorAll('.Nav-menu a[href^="#"]');
+const itens = document.querySelectorAll('#Initialing a[href^="#"]');
 itens.forEach(item => {
     item.addEventListener('click', scrollClick);
 
@@ -10,7 +10,7 @@ function scrollClick(event){
     const id = scrollElement.getAttribute('href');
     const selectDiv = document.querySelector(id).offsetTop;
 
-        window.scroll({top: selectDiv + 200,
+        window.scroll({top: selectDiv + 240,
         behavior: "smooth"});
         
 }

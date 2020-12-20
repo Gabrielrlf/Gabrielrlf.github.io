@@ -4,6 +4,11 @@
 <head>
     <link rel="shortcut icon" href="images/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossOrigin="anonymous">
+    </link>
+    <link href="https://getbootstrap.com/docs/4.5/assets/css/docs.min.css" rel="stylesheet">
+    </link>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
@@ -15,29 +20,38 @@
 </head>
 
 <body>
-    <nav class="Nav-menu" >
-        <ul class="list-inline">
-            <li><a href="#nameId" class="text-menu">Sobre</a></li>
-            <li><a href="#contact" class="text-menu">Contato</a></li>
+    <!--<nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar" >
+        <ul class="navbar-nav bd-navbar-nav flex-row">
+            <li class="nav-item"><a href="#nameId" class="text-menu nav-link">Sobre</a></li>
+            <li class="nav-item"><a href="#contact" class="text-menu nav-link">Contato</a></li>
         </ul>
-    </nav>
+    </nav>-->
     <div id="Initialing">
-        <h1 id="Iniciando"> Acesse o meu GIT </h1>
-        <h2 id="gitAcess"></h2>
-        <p><a href="https://github.com/Gabrielrlf" target="_blank" class="btn btn-primary">Veja mais</a></p>
+        <h1 id="Iniciando" class="text-center"> Gabriel Fonseca </h1>
+        <h3 class="text-center" id="dev"> Desenvolvedor Jr - C# - React - Sql Server</h3>
+        <h3 class="text-center"> _____________________</h3>
+        <p><a href="#nameId" class="fa fa-angle-double-down animated"></a></p>
+    </div>
+    <div>
+        <section id="options">
+            <div class="btn-rede-social"><a href="#"><i class="fab fa-linkedin"></i>Linkedin</a></div>
+            <div class="btn-rede-social"><a href="#"><i class="fab fa-github"></i>Github</a></div>
+            <div class="btn-rede-social"><a href="#"><i class="fab fa-instagram"></i>Instagram</a></div>
+        </section>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <img src="images/46503231_1701489886623989_965793692235333632_n.png" alt="picture" id="ImageBorder"
                 class="text-right">
-            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-6" id="paddingDiv">
+            <div class="col-md-8" id="paddingDiv">
                 <div class="bannerLanding text-left">
-                    <h1 id="nameId">Gabriel Fonseca</h2><br>
+                    <h1 id="nameId">Sobre mim</h2><br>
                         <p id="infoId">20 anos,<br> residente de Fortaleza-Ceará, apaixonado por programação, estudante
                             de
                             Análise e desenvolvimento de
                             sistemas, atualmente trabalhando com C# e
                             em busca de freela na parte de front.
+                            Atualmente trabalhando com as tecnologias: C# .Net, React & bd SQL SERVER.
                 </div>
             </div>
         </div>
@@ -48,7 +62,7 @@
         <br>
         <form action="https://formspree.io/mknqvraw" method="POST">
             <fieldset>
-                <div class="form-group text-center">
+                <div class="form-group">
                     <label for="exampleInputEmail1"></label>
                     <input type="text" class="form-control" name="nomeEmail" id="exampleInputEmail1"
                         aria-describedby="NomeEmail" placeholder="Digite seu nome">
@@ -84,4 +98,5 @@
     </div>
 </body>
 <script src="Js/script.js"></script>
+
 </html>

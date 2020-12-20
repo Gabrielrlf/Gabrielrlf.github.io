@@ -1,9 +1,27 @@
 body
 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     font-size: 20px;
     margin: 0;
     background-color:rgb(240, 240, 240);
+}
+
+@media(max-width: 400px){
+    body{
+        width: 100%;
+        display: table;
+    }
+}
+.bd-navbar {
+    min-height: 4rem;
+    background-color: #ccc8d4;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+} 
+.navbar{
+    margin-bottom: 0px;
+    border: none !important;
 }
 .BannerLanding
 {
@@ -38,7 +56,7 @@ body
   .text-menu, .text-menu:active{
       text-decoration: none !important;
       font-weight: bold !important;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',    sans-serif !important;
     margin: auto 22px;
       color: #000000      !important;
   }
@@ -66,6 +84,10 @@ body
         background-color: rgb(200,200,200);
        
   }
+  #dev{
+      font-family: Open Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    font-style: oblique;
+  }
   #footer a
   {
       color: gray;
@@ -78,6 +100,7 @@ body
   }
   #infoId
   {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',    sans-serif !important;
     margin: auto auto;
 } 
   #paddingDiv{
@@ -94,6 +117,8 @@ body
 
   }
   .formDiv{
+      display: table;
+      width: 100%;
     background-size: cover;
     background-color: rgb(200, 200, 200);
     margin: 0px;
@@ -102,7 +127,9 @@ body
     border-radius: 2px;
     box-shadow: 2px 2px rgb(235, 235, 235);
   }
-#nameId{
+#nameId, #nameId a, #nameId:active{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',    sans-serif !important;
     margin: auto auto !important; 
     color: black !important;
     font-weight: bold;;
@@ -115,29 +142,72 @@ body
     font-size: 15px;
     color: whitesmoke;
 }
+#initialing-body{
+    display: table-cell;
+    vertical-align: middle;
+}
 #Initialing{
+width: 100%;
+display: table;
     background-position: 100%;
     background-image: url('images/corona-5275916_1280.jpg');
     background-size: cover;
     background-color: black;
     margin: 0px;
     text-align: center;
-    padding: 150px;
-    border-radius: 2px;
-    box-shadow: 2px 2px rgb(235, 235, 235);
+    height: 780px;
 }
 #GitAcess{
     color: black !important;
     font-weight: bold;
 }
+.text-center{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.fa fa-angle-double-down{
+ text-decoration: none;
+ border: 40px black;
+}
+
+
+#options{   
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(177, 176, 176, 0.205);
+    padding: 150px;
+}
+.btn-rede-social:hover a{
+    color: white !important;
+}
+.btn-rede-social:hover{
+    position: relative;
+    background-color: rgba(46, 43, 43, 0.973) !important;
+}
+.btn-rede-social a, .btn-rede-social:visited{
+   color: rgb(95, 79, 79);
+    text-decoration: none;
+}
+
+.btn-rede-social{
+    background-color: rgb(219, 211, 211);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 200px !important;
+    padding: 20px;
+    border-radius: 9px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 1s ;
+}
+
 #Iniciando{
+    padding: 100px;
     margin: 0 auto;
     font-size: 70px;
     color:whitesmoke !important;
     text-shadow: 2px 1px rgb(0, 0, 0);
 }
 #footer{
-    
     color: whitesmoke;
     padding: 30px;
     background-color: black;
@@ -146,7 +216,6 @@ a{ text-decoration: none;
 }
 a:hover{
     text-decoration: none;
-    color: palegoldenrod;
 }
 h1{
     font-family: 'Noto Sans JP', sans-serif;
